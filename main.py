@@ -9,6 +9,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。
     print(f'hello world{name}')
     print('hello %s' % name)
+    print_hi(name)
 
 
 # 按装订区域中的绿色按钮以运行脚本。
